@@ -16,7 +16,7 @@ Ticket system v2, many new and improved features. Optimized code.
 4) Place the event into your events folder.
 
 # MongoDB Connection:
-- be sure to add this to your ready.js file. Also add `await` before the `execute` in your ready file.
+- be sure to add this to your ready.js file. Also add `async` before the `execute` in your ready file.
 ```
     // Add this to the top of the file
     const { connect } = require('mongoose')
