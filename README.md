@@ -10,14 +10,14 @@ Ticket system v2, many new and improved features. Optimized code.
 - dotenv => `npm i dotenv`
 - discord-html-transcripts => `npm i discord-html-transcripts`
 
-## Instructions:
+## Instructions
 
 1) Place the command into your commands folder.
 2) Create a new folder in the bot root direcatory and name it "schemas", and than place the schema in there.
 3) Change all the paths to the right ones if needed.
 4) Place the event into your events folder.
 
-## MongoDB Connection:
+## MongoDB Connection
 
 - be sure to add this to your ready.js file. Also add `async` before the `execute` in your ready file.
 
