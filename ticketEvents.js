@@ -308,11 +308,11 @@ module.exports = {
             components: [
               new ActionRowBuilder().setComponents(
                 new ButtonBuilder()
-                .setCustomId("ticket-reopen")
-                .setLabel("Reopen")
-                .setEmoji("🔓")
-                .setStyle(ButtonStyle.Success)
-                .setDisabled(true),
+                  .setCustomId("ticket-reopen")
+                  .setLabel("Reopen")
+                  .setEmoji("🔓")
+                  .setStyle(ButtonStyle.Success)
+                  .setDisabled(true),
                 new ButtonBuilder()
                   .setCustomId("ticket-delete")
                   .setLabel("Delete")
